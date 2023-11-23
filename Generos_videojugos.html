@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea de Tiempo de Videojuegos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <nav class="bg-gray-800">
+                <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div class="relative flex h-16 items-center justify-between">
+                        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+
+                            <button type="button"
+                                class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                                aria-controls="mobile-menu" aria-expanded="false">
+                                <span class="absolute -inset-0.5"></span>
+                                <span class="sr-only">Open main menu</span>
+
+                                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+
+                                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                            <div class="flex flex-shrink-0 items-center">
+                                <img class="h-8 w-auto"
+                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                    alt="Your Company">
+                            </div>
+                            <div class="hidden sm:ml-6 sm:block">
+                                <div class="flex space-x-4">
+                                    <a href="index.html"
+                                        class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                                        aria-current="page">INICIO</a>
+                                    <a href="Linea_del_tiempo.html"
+                                        class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                                        aria-current="page">linea de Tiempo</a>
+                                    <a href="Comparacion_Grafica.html"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Comparacion
+                                        Grafica</a>
+                                    <a href="#"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Consolas
+                                        Emblematicas</a>
+                                    <a href="Generos_videojugos.html"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Generos
+                                        de Videojuegos</a>
+                                    <a href="Cultura_Game.html"
+                                        class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Cultura
+                                        Gamer</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            <button type="button"
+                                class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                                <span class="absolute -inset-1.5"></span>
+                                <span class="sr-only">View notifications</span>
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                                </svg>
+                            </button>
+
+                            <div class="relative ml-3">
+                                <div>
+                                    <button type="button"
+                                        class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                        id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                                        <span class="absolute -inset-1.5"></span>
+                                        <span class="sr-only">Open user menu</span>
+                                        <img class="h-8 w-8 rounded-full"
+                                            src="https://firebasestorage.googleapis.com/v0/b/cesde-alumno.appspot.com/o/character-l-fotor-20231109195726.png?alt=media&token=b7cc7c8a-9d92-49a3-a855-d863f4196061"
+                                            alt="foto" </button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sm:hidden" id="mobile-menu">
+                    <div class="space-y-1 px-2 pb-3 pt-2">
+                        <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+                            aria-current="page">Dashboard</a>
+                        <a href="#"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+                        <a href="#"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+                        <a href="#"
+                            class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+                    </div>
+                </div>
+            </nav>
+
+        </section>
+    </header>
+
+    <section class="bg-gray-100">
+        <div id="app" class="container mx-auto p-8">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-8">Géneros de Videojuegos</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div v-for="(genre, index) in genres" :key="index"
+                    class="bg-white p-6 rounded-md shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
+                    <img :src="genre.gif" :alt="genre.name" class="mb-4 rounded-md">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">{{ genre.name }}</h3>
+                    <p class="text-gray-600">{{ genre.description }}</p>
+                    <p class="text-gray-600 mt-2"><strong>Ejemplos:</strong> {{ genre.examples.join(', ') }}</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    genres: [
+                        {
+                            name: 'Acción',
+                            description: 'Los juegos de acción se centran en la velocidad y la destreza física. Suelen involucrar combates intensos y situaciones de alta adrenalina.',
+                            examples: ['Call of Duty', 'Assassin\'s Creed', 'Grand Theft Auto'],
+                            gif: 'https://giffiles.alphacoders.com/206/206682.gif'
+                        },
+                        {
+                            name: 'Aventura',
+                            description: 'Los juegos de aventura se centran en la exploración, la resolución de rompecabezas y las narrativas envolventes. Los jugadores suelen sumergirse en mundos ricos y emocionantes.',
+                            examples: ['The Legend of Zelda', 'Uncharted', 'Tomb Raider'],
+                            gif: 'https://media3.giphy.com/media/l658Uy0xSabZu/giphy.gif'
+                        },
+                        {
+                            name: 'Estrategia',
+                            description: 'Los juegos de estrategia requieren planificación y toma de decisiones tácticas. Pueden ser de estrategia en tiempo real (RTS) o por turnos.',
+                            examples: ['StarCraft', 'Civilization', 'Age of Empires'],
+                            gif: 'https://media.giphy.com/media/hTGaVzZ0PZA1G/giphy.gif'
+                        },
+                        {
+                            name: 'Rol (RPG)',
+                            description: 'Los juegos de rol permiten a los jugadores asumir roles ficticios en un mundo imaginario. Suelen incluir elementos de narrativa profunda y desarrollo de personajes.',
+                            examples: ['Final Fantasy', 'The Elder Scrolls', 'Mass Effect'],
+                            gif: 'https://th.bing.com/th/id/R.e3c4774274d73b00db75c845de462bba?rik=SeIcJidRk5qYSg&riu=http%3a%2f%2fcl.buscafs.com%2fwww.levelup.com%2fpublic%2fuploads%2fimages%2f408256.gif&ehk=5DUNFbRrLMETBcL2oiADewbvOGThF%2byC76p7WUw9tWI%3d&risl=1&pid=ImgRaw&r=0'
+                        },
+                        {
+                            name: 'Deportes',
+                            description: 'Los juegos de deportes simulan actividades deportivas del mundo real. Pueden incluir simulaciones realistas o enfoques más arcade.',
+                            examples: ['FIFA', 'NBA 2K', 'Rocket League'],
+                            gif: 'https://media.giphy.com/media/eRkNPQqTY6r9S/giphy-downsized-large.gif'
+                        },
+                        {
+                            name: 'Survival Horror',
+                            description: 'Los juegos de survival horror se centran en la supervivencia en entornos aterradores. Suelen incluir elementos de horror y exploración.',
+                            examples: ['Resident Evil', 'Silent Hill', 'Amnesia: The Dark Descent'],
+                            gif: 'https://media.giphy.com/media/TMsx1F3nL2RZC/giphy.gif'
+                        },
+                        {
+                            name: 'Puzzle',
+                            description: 'Los juegos de puzzle desafían la mente del jugador con problemas lógicos y desafíos. Requieren pensamiento estratégico y resolución de problemas.',
+                            examples: ['Tetris', 'Portal', 'Candy Crush'],
+                            gif: 'https://media0.giphy.com/media/HyvnMHUEOSY8M/giphy.gif'
+                        },
+                        {
+                            name: 'Simulación',
+                            description: 'Los juegos de simulación imitan situaciones de la vida real. Pueden incluir simuladores de vida, simuladores de vuelo, entre otros.',
+                            examples: ['The Sims', 'Microsoft Flight Simulator', 'SimCity'],
+                            gif: 'https://64.media.tumblr.com/c24b96cb37e4aa9832339b8046ddfacb/tumblr_nb5qctwkoQ1r2xv8po1_500.gif'
+                        },
+                        {
+                            name: 'Musical / Ritmo',
+                            description: 'Los juegos musicales o de ritmo desafían la coordinación mano-ojo y el sentido del ritmo del jugador. Suelen incluir música como parte fundamental del juego.',
+                            examples: ['Guitar Hero', 'Dance Dance Revolution', 'Beat Saber'],
+                            gif: 'https://i.kinja-img.com/gawker-media/image/upload/c_lfill,w_410,q_90/xosokklxhaghf9yjdegu.gif'
+                        },
+                        {
+                            name: 'Ciencia Ficción',
+                            description: 'Los juegos de ciencia ficción se desarrollan en entornos futuristas o de fantasía científica. Pueden incluir elementos tecnológicos avanzados, viajes espaciales, etc.',
+                            examples: ['Mass Effect', 'Halo', 'Deus Ex'],
+                            gif: 'https://media.giphy.com/media/dutoQIM0C7Q8o/giphy.gif'
+                        },
+                    ]
+                }
+            });
+        </script>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 GeekGamer. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
